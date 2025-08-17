@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Gallery</title>
+  <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="title">Formula 1 Gallery</h1>
+    <p class="subtitle">🏁 Where speed meets style – Explore the world of Formula 1 drivers and machines.</p>
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="driver">Drivers</button>
+    <button class="filter-btn" data-filter="car">Cars</button>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="gallery-item driver">
+      <img src="pics/lh.jpeg" alt="Driver 1">
+    </div>
+    <div class="gallery-item car">
+      <img src="pics/lh_c.jpg" alt="Car 1">
+    </div>
+    <div class="gallery-item driver">
+      <img src="pics/ln_news.webp" alt="Driver 2">
+    </div>
+    <div class="gallery-item car">
+      <img src="pics/ln_c.jpeg" alt="Car 2">
+    </div>
+    <div class="gallery-item driver">
+      <img src="pics/ms_d.jpeg" alt="Driver 3">
+    </div>
+    <div class="gallery-item car">
+      <img src="pics/mv_c.png" alt="Car 3">
+    </div>
+    <div class="gallery-item driver">
+      <img src="pics/cl_d.jpeg" alt="Driver 4">
+    </div>
+    <div class="gallery-item car">
+      <img src="pics/cl_c.jpeg" alt="Car 4">
+    </div>
+    <!-- Add more items -->
+  </div>
+
+  <!-- Lightbox Preview -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Preview">
+    <div class="lightbox-nav">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Ritik</p>
+    <p>Email: <a href="mailto:ritik@example.com">ritik@example.com</a> | GitHub: <a href="https://github.com/ritikusername" target="_blank">ritikusername</a></p>
+    <p class="race-tagline">"In racing, there are no shortcuts – only faster ways to reach the limit."</p>
+  </footer>
+
+  <script src="script_1.js"></script>
+</body>
+</html>
